@@ -1,0 +1,28 @@
+{
+  "name": "Save to querySelector",
+  "version": "1.0",
+  "description": "Save content to queryselector.com",
+  "permissions": ["activeTab","storage","declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "32": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+
+  "manifest_version": 2
+}
